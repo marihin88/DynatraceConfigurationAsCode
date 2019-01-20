@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "clusterVersion": "1.162.5.20190120-092207",
+    "configurationVersions": [
+      2
+    ]
+  },
+  "dashboardMetadata": {
+    "name": "New dashboard",
+    "owner": "wolfgang.beer@ruxit.com",
+    "timeframe": "l_2_HOURS",
+    "managementZone": null
+  },
+  "tiles": [
+    {
+      "name": "Service health",
+      "tileType": "SERVICES",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "useComparisionTimeframe": false,
+      "managementZone": null,
+      "filterConfig": null,
+      "chartVisible": true
+    },
+    {
+      "name": "Problems",
+      "tileType": "OPEN_PROBLEMS",
+      "configured": true,
+      "bounds": {
+        "top": 9,
+        "left": 309,
+        "width": 152,
+        "height": 152
+      },
+      "useComparisionTimeframe": false,
+      "managementZone": null
+    }
+  ]
+}
